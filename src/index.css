@@ -184,7 +184,7 @@ button:hover{
   }
 
   header{
-    margin-top: 4px 0px;
+    margin: 5px 0px;
   }
 
   .movie{
@@ -193,7 +193,7 @@ button:hover{
   }
 
   .buttons{
-    padding: 7px 15px;
+    padding: 15px 5px;
   }
 
   .hangman-img{
