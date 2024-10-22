@@ -189,7 +189,7 @@ button:hover{
 
   .movie{
     gap: 3px;
-    padding: 10px 5px;
+    padding: 17px 5px;
   }
 
   .buttons{
@@ -197,7 +197,7 @@ button:hover{
   }
 
   .hangman-img{
-    width: 250px; 
+    width: 270px; 
   }
 
   .letter{
