@@ -1,0 +1,30 @@
+const letters = [
+    {id: 0, letter: "A", guessed: false}, 
+    {id: 1, letter: "B", guessed: false},
+    {id: 2, letter: "C", guessed: false},
+    {id: 3, letter: "D", guessed: false},
+    {id: 4, letter: "E", guessed: false},
+    {id: 5, letter: "F", guessed: false},
+    {id: 6, letter: "G", guessed: false},
+    {id: 7, letter: "H", guessed: false},
+    {id: 8, letter: "I", guessed: false},
+    {id: 9, letter: "J", guessed: false},
+    {id: 10, letter: "K", guessed: false},
+    {id: 11, letter: "L", guessed: false},
+    {id: 12, letter: "M", guessed: false},
+    {id: 13, letter: "N", guessed: false},
+    {id: 14, letter: "O", guessed: false},
+    {id: 15, letter: "P", guessed: false},
+    {id: 16, letter: "Q", guessed: false},
+    {id: 17, letter: "R", guessed: false},
+    {id: 18, letter: "S", guessed: false},
+    {id: 19, letter: "T", guessed: false},
+    {id: 20, letter: "U", guessed: false},
+    {id: 21, letter: "V", guessed: false},
+    {id: 22, letter: "W", guessed: false},
+    {id: 23, letter: "X", guessed: false},
+    {id: 24, letter: "Y", guessed: false},
+    {id: 25, letter: "Z", guessed: false}
+]
+
+export default letters
