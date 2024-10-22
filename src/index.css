@@ -88,6 +88,7 @@ h2{
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
+  color: #000;
 }
 
 button:hover{
