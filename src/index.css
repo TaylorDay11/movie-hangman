@@ -170,6 +170,10 @@ button:hover{
 
 @media (max-width: 380px) {
 
+  #root{
+    padding: 1rem;
+  }
+
   h1{
     font-size: 24px;
   }
