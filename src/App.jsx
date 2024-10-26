@@ -12,17 +12,13 @@ export default function App() {
 
     const options = {
       method: 'GET',
-      headers: {
-        accept: 'application/json',
-        Authorization: import.meta.env.VITE_API_KEY 
-      }
+      url: '/api/movies'
     }
 
-    const randomPage = Math.floor((Math.random() * 10) + 1)
-    
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=${randomPage}&sort_by=popularity.desc&with_original_language=en`, options);
+        const response = await fetch('http://localhost:8000/api/movies');
+        console.log(options)
         if (!response.ok) {
           throw new Error('Failed to fetch data. Please try refereshing the page.');
         }

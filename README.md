@@ -1,8 +1,9 @@
-# React + Vite
+# Movie Hangman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+version: 1.0
 
-Currently, two official plugins are available:
+by: Taylor Hershberger
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+coding languages: HTML, CSS, Javascript, and React
+
+description: A hangman game that grabs a random movie from an API of the top 200 most popular movies on IMBD. The API key is hidden using a mini backend created in Node.js.
