@@ -12,10 +12,6 @@ const app = express()
 app.use(cors())
 app.use(express.json());
 
-app.get('/', (req,res) => {
-    res.json('hi')
-})
-
 app.get('/api/movies', (req,res) => {
 
     const randomPage = Math.floor((Math.random() * 10) + 1)
