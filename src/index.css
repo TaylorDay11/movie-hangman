@@ -101,6 +101,7 @@ button:hover{
 
 .guess-letter{
   margin-bottom: 6px;
+  padding: 0px 80px;
   border: none;
   border-radius: 30px;
   width: 30px;
@@ -159,12 +160,16 @@ button:hover{
   }
 
   .buttons{
-    padding: 17px 15px;
+    padding: 17px 30px;
     gap: 9px;
   }
 
   h2{
     margin-top: 7px;
+  }
+
+  .guess-letter{
+    padding: 0px 30px;
   }
 
 }
@@ -190,7 +195,7 @@ button:hover{
   }
 
   .buttons{
-    padding: 15px 5px;
+    padding: 15px 20px;
   }
 
   .hangman-img{
@@ -213,5 +218,6 @@ button:hover{
     margin-bottom: 0px;
     width: 30px;
     height: 30px;
+    padding: 0px 20px;
   }
 }
