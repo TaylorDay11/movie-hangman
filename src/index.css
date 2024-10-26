@@ -20,9 +20,7 @@ code {
 
 .loading-page, .error-page {
   width: 100vw;
-  max-width: 100%;
   height: 100vh;
-  max-height: 100%;
   background-color: #2d2d2d;
   text-align: center;
   display: flex;
@@ -173,10 +171,6 @@ button:hover{
 
 @media (max-width: 450px) {
 
-  #root{
-    padding: 1rem;
-  }
-
   h1{
     font-size: 24px;
   }
@@ -187,6 +181,7 @@ button:hover{
 
   header{
     margin: 5px 0px;
+    padding-top: 1em;
   }
 
   .movie{
