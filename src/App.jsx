@@ -17,7 +17,7 @@ export default function App() {
 
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/movies');
+        const response = await fetch('https://movie-hangman.onrender.com/api/movies');
         console.log(options)
         if (!response.ok) {
           throw new Error('Failed to fetch data. Please try refereshing the page.');
