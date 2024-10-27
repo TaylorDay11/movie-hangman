@@ -28,7 +28,6 @@ app.get('/api/movies', (req,res) => {
       axios.request(options).then((response) => {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify(response.data));
-        //res.json(response.data)
       }).catch((err) => {res.json(err)})
 })
 
